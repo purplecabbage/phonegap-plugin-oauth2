@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+           id="phonegap-plugin-oauth2"
+      version="0.0.1">
+    <name>phonegap-plugin-oauth2</name>
+
+    <js-module src="www/pg-oauth2.js" name="PG_OAuth2">
+        <clobbers target="PG_OAuth2" />
+    </js-module>
+</plugin>
